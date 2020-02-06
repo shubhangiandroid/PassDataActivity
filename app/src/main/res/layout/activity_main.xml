@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9E2EB8"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="Welcome !"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="We hope you enjoy the stay"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="Sign in"
+        android:textColor="#161616"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/btn_Login"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+       android:src="@drawable/loginbtn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="50dp"
+        android:gravity="bottom"
+        android:text="By signing up you agree to the terms of service and
+        privacy policy"
+        android:textAlignment="center" />
+
+</LinearLayout>
